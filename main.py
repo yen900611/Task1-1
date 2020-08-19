@@ -63,6 +63,9 @@ class Bird(pygame.sprite.Sprite):
         self.vel_y = 0
         self.pos = []
         self.skill = False
+        
+    def update(self):
+        pass
 
     def before_shot(self, mouse_pos):
         dx = mouse_pos[0] - self.origin[0]
